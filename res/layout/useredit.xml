@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/edit_layout"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="#FFFFFF">
+     <RelativeLayout
+          android:id="@+id/top_layout_edit"
+          android:layout_width="match_parent"
+          android:layout_height="40dp"
+          android:layout_gravity="top" 
+          android:background="@drawable/myborder">
+          <ImageButton
+            android:id="@+id/previous_page_edit"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:src="@drawable/ic_back_white"
+        	android:background="@android:color/transparent" >
+          </ImageButton>
+          <TextView
+            android:id="@+id/top_title_edit"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="Edit Activity"
+        	android:textStyle="bold"
+        	android:textSize="20sp"
+        	android:textColor="#FFFFFF"
+        	android:layout_centerInParent="true">
+          </TextView>
+           <ImageButton
+            android:id="@+id/trash_edit"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:src="@drawable/ic_trash_white"
+        	android:background="@android:color/transparent"
+        	android:layout_alignParentRight="true" >
+          </ImageButton>
+    </RelativeLayout>
+   
+ </LinearLayout>

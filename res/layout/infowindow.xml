@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/layoutshape" >
+    <LinearLayout 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:orientation="horizontal">
+	  
+	<TextView
+        android:id="@+id/address_infowindow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="4dp"
+        android:textStyle="bold"
+        android:text="address"
+        android:textSize="25sp" >
+    </TextView>
+    </LinearLayout>
+    
+	<LinearLayout 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:orientation="horizontal">
+    	<TextView
+        	android:id="@+id/title_infowindow"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="starttime : Dance club street show ~~"
+        	android:textSize="18sp" >
+    	</TextView>
+       
+    </LinearLayout>
+   
+    <TextView
+        	android:id="@+id/gotodetails_infowindow"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_gravity="center"
+        	android:text="GO>>"
+        	android:textColor="#0000FF"
+        	android:textSize="18sp" >
+    </TextView>
+
+</LinearLayout> 

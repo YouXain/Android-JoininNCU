@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/datetimelayout"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView 
+        	android:id="@+id/title_datetimelayout"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_centerHorizontal="true"
+        	android:text="title"
+        	android:textSize="25dp"/>
+        <TextView 
+            android:id="@+id/done_datatimelayout"
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="done"
+        	android:layout_alignParentRight="true"
+        	android:textSize="20dp"/>
+    </RelativeLayout>
+    <FrameLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout 
+            android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:layout_marginLeft="-30dp">
+            <DatePicker 
+        	android:id="@+id/datepicker"
+        	android:layout_width="wrap_content"
+        	android:layout_gravity="center"
+        	android:calendarViewShown="false"
+        	android:scaleX="0.8"  
+        	android:layout_height="wrap_content"
+        	android:layout_alignParentLeft="true"/>
+        </RelativeLayout>
+        
+    	<TimePicker 
+        	android:id="@+id/timepicker"
+        	android:layout_width="wrap_content"
+        	android:layout_gravity="center"
+        	android:layout_marginLeft="100dp"
+        	android:scaleX="0.8" 
+        	android:layout_height="wrap_content"/>
+    	</FrameLayout>
+    
+    
+</LinearLayout>

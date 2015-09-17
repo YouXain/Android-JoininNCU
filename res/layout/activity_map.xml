@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:animationCache="true"
+    android:persistentDrawingCache="all"
+    android:alwaysDrawnWithCache="true">
+	<fragment
+  	     android:id="@+id/map"
+  	     android:layout_width="match_parent"
+  	     android:layout_height="match_parent"
+  	     class="com.google.android.gms.maps.SupportMapFragment"/>
+  	<RelativeLayout
+          android:id="@+id/top_layout_map"
+          android:layout_width="match_parent"
+          android:layout_height="40dp"
+          android:layout_gravity="top" 
+          android:background="@drawable/myborder">
+          
+          <TextView
+            android:id="@+id/top_title_map"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="Activities Map"
+        	android:textStyle="bold"
+        	android:textSize="20sp"
+        	android:textColor="#F8F2F8"
+        	android:layout_centerInParent="true">
+    	   </TextView>
+    	  
+    	   <ImageButton 
+    	       android:id="@+id/camera_map"
+    	       android:layout_height="40dp"
+    	       android:layout_width="40dp" 	       
+    	       android:layout_alignParentRight="true"
+    	       android:src="@drawable/backcamerabutton"
+    	       android:background="@null"/>
+    	   <LinearLayout 
+    	      	android:layout_width="wrap_content"
+          		android:layout_height="match_parent" 
+          		android:layout_alignParentLeft="true">
+    	        <Spinner 
+		    		android:id="@+id/campus_spinner_map"
+		    		android:layout_height="wrap_content"
+		    		android:layout_width="0dp"
+		    		android:layout_weight="1"
+		    		android:padding="3dp"/>
+    	   </LinearLayout>
+    	  
+     </RelativeLayout>
+  	 <LinearLayout
+	    android:layout_width="match_parent" 
+    	android:layout_height="60dp"
+    	android:layout_gravity="bottom" 
+     	android:orientation="horizontal"
+     	android:background="@drawable/myborder">
+		<Spinner 
+		    android:id="@+id/type_spinner_map"
+		    android:layout_height="wrap_content"
+		    android:layout_width="0dp"
+		    android:layout_weight="1"
+		    android:padding="3dp"/>
+		<Spinner 
+		    android:id="@+id/spinner_map"
+		    android:layout_height="wrap_content"
+		    android:layout_width="0dp"
+		    android:layout_weight="2"
+		    android:padding="3dp"/>
+		<LinearLayout 
+		    android:layout_height="match_parent"
+		    android:layout_width="0dp"
+		    android:layout_weight="1"
+		    android:gravity="center"
+		    android:padding="2dp"
+		    android:orientation="horizontal">
+		    <ImageButton
+            	android:id="@+id/clearbutton_map"
+        		android:layout_width="60dp"
+        		android:layout_height="match_parent"
+        		android:src="@drawable/clearbutton"
+        		android:scaleType="fitCenter"
+        		android:background="@android:color/transparent" >
+          	</ImageButton>
+
+		</LinearLayout>
+	    
+	</LinearLayout>
+
+  	 
+  	 
+  </FrameLayout>

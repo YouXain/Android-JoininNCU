@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <FrameLayout
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      android:id="@+id/total_layout"
+      android:layout_width="fill_parent" 
+      android:layout_height="fill_parent">
+      <RelativeLayout
+          android:id="@+id/top_layout"
+          android:layout_width="match_parent"
+          android:layout_height="40dp"
+          android:layout_gravity="top" 
+          android:background="@drawable/myborder">
+          <TextView
+            android:id="@+id/top_title"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:textStyle="bold"
+        	android:textSize="20sp"
+        	android:textColor="#F8F2F8"
+        	android:layout_centerInParent="true">
+    	  </TextView>
+    	  <ImageButton
+            android:id="@+id/top_update"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:src="@drawable/updatebutton"
+        	android:layout_alignParentRight="true"
+        	android:background="@android:color/transparent"
+        	android:padding="3dp"
+        	android:visibility="gone" >
+          </ImageButton>
+         
+      </RelativeLayout>
+     <FrameLayout 
+        android:id="@+id/main_layout"
+      	android:layout_width="match_parent" 
+      	android:layout_height="fill_parent"
+      	android:layout_marginTop="40dp"
+      	android:background="#FFFFFF"
+      	android:orientation="vertical"
+      	android:fitsSystemWindows="true">
+		<ImageView 
+		    android:id="@+id/homepage"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center"
+		    android:scaleType="fitStart"
+		    android:src="@drawable/ic_apphome"/>
+		<ImageView 
+		    android:id="@+id/about_us"
+		    android:layout_width="70dp"
+		    android:layout_height="70dp"
+		    android:layout_gravity="center_horizontal|bottom"
+			android:layout_marginBottom="70dp"
+		    android:src="@drawable/aboutusbutton"/>
+      </FrameLayout>
+      <LinearLayout 
+     	android:layout_width="match_parent"
+     	android:layout_height="60dp"
+		android:layout_gravity="bottom" 
+     	android:orientation="horizontal"
+     	android:background="@drawable/myborder">
+    
+        <ImageButton
+            android:id="@+id/list_button"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:src="@drawable/listbutton"
+            android:background="@null" />
+        
+        <ImageButton
+            android:id="@+id/write_button"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:src="@drawable/mapbutton"
+            android:background="@null" />
+        
+         <ImageButton
+            android:id="@+id/follow_button"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:src="@drawable/followbutton"
+            android:background="@null" />
+
+     </LinearLayout>
+         	
+  </FrameLayout>
+  
+   

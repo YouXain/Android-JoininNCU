@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/show_layout"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+     <RelativeLayout
+          android:id="@+id/top_layout_activity"
+          android:layout_width="match_parent"
+          android:layout_height="40dp"
+          android:layout_gravity="top" 
+          android:background="@drawable/myborder">
+          <ImageButton
+            android:id="@+id/previous_page_activity"
+        	android:layout_width="40dp"
+        	android:layout_height="40dp"
+        	android:src="@drawable/backbutton"
+        	android:scaleType="fitCenter"
+        	android:layout_alignParentLeft="true"
+        	android:background="@android:color/transparent" >
+          </ImageButton>
+          <TextView
+            android:id="@+id/top_title_activity"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="username"
+        	android:textColor="#FFFFFF"
+        	android:textStyle="bold"
+        	android:textSize="20sp"
+        	android:layout_centerInParent="true">
+          </TextView>
+          <TextView
+        	android:id="@+id/uploadtime_activity"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="Uploadtime"
+        	android:textColor="#FFFFFF"
+        	android:layout_marginTop="12dp"
+        	android:layout_alignParentRight="true"
+        	android:visibility="gone"
+        	android:textSize="12sp">
+          </TextView>
+         
+    	  <ImageButton
+            android:id="@+id/gotomap_activity"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:src="@drawable/navigatebutton"
+        	android:layout_alignParentRight="true"
+        	android:paddingTop="3dp"
+        	android:paddingRight="2dp"
+        	android:background="@android:color/transparent" >
+          </ImageButton>
+    		
+    </RelativeLayout>
+
+    <LinearLayout 
+        android:layout_width="match_parent" 
+    	android:layout_height="wrap_content"
+    	android:padding="3dp"
+    	android:orientation="horizontal">
+    	 <TextView
+        	android:id="@+id/starttime_activity"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="6"
+        	android:text="StartTime"
+        	android:textSize="20sp">
+    	</TextView>
+    	<TextView
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="1"
+        	android:text="~"
+        	android:textSize="20sp">
+    	 </TextView>
+    	 <TextView
+        	android:id="@+id/endtime_activity"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="6"
+        	android:text="EndTime"
+        	android:textSize="20sp">
+    	</TextView>
+    </LinearLayout>
+    <RelativeLayout 
+        android:layout_width="match_parent" 
+    	android:layout_height="wrap_content"
+    	android:padding="3dp"
+    	android:orientation="horizontal">
+    	<TextView
+        	android:id="@+id/address_activity"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_alignParentLeft="true"
+        	android:text="address"
+        	android:layout_margin="3dp"
+        	android:textSize="20sp">
+    	</TextView>
+    	 <ImageButton
+            android:id="@+id/fbshare_activity"
+        	android:layout_width="wrap_content"
+        	android:layout_height="40dp"
+        	android:src="@drawable/ic_fbshare"
+        	android:layout_alignParentRight="true"
+			android:scaleType="fitCenter"
+        	android:background="@android:color/transparent" >
+         </ImageButton> 
+   	</RelativeLayout>
+    
+    <TextView
+        android:id="@+id/title_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="title"
+        android:padding="5dp"
+        android:background="@drawable/contextshape"
+        android:layout_margin="4dp"
+        android:textSize="20sp">
+    </TextView>
+    <EditText
+        android:id="@+id/context_activity"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:autoLink="all"
+        android:inputType="textMultiLine" 
+        android:padding="5dp"
+    	android:lines="8" 
+    	android:minLines="6" 
+    	android:layout_margin="5dp"
+    	android:gravity="top|left" 
+    	android:maxLines="10" 
+    	android:selectAllOnFocus="true"
+    	android:scrollbars="vertical"
+    	android:background="@drawable/contextshape"
+        android:cursorVisible="false" 
+        android:focusable="false" 
+        android:focusableInTouchMode="false"
+    	android:text="hi 123 456 789"> 
+        
+    </EditText>
+     <LinearLayout 
+        android:layout_width="match_parent" 
+    	android:layout_height="match_parent"
+    	android:orientation="horizontal">
+    	 <ImageView 
+        	android:id="@+id/image_activity"
+        	android:layout_width="100dp"
+        	android:layout_height="match_parent"
+        	android:clickable="false"
+        	android:layout_weight="1" />
+    	 <ImageButton 
+    	    android:id="@+id/follow_activity"
+        	android:layout_width="50dp"
+        	android:layout_weight="1"
+        	android:layout_height="match_parent"
+        	android:src="@drawable/ic_followthis"
+        	android:background="@android:color/transparent"/>
+         
+    </LinearLayout>
+</LinearLayout>        

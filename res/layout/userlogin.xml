@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <ImageView 
+    	    android:id="@+id/imageUser_login"
+        	android:layout_width="50dp"
+        	android:layout_height="wrap_content"
+        	android:layout_gravity="center"
+    	    android:src="@drawable/user"/>
+        <TextView 
+            android:id="@+id/username_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="15dp"
+            android:text="UserName"
+            android:gravity="center"
+            android:textSize="20sp"/>
+       	<TextView 
+            android:id="@+id/logout_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_alignParentRight="true"
+            android:text="Logout"
+            android:layout_marginRight="5dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#5555FF"
+            android:textSize="20sp"/>
+    </RelativeLayout>
+    <ListView 
+        android:id="@+id/postedlist"
+        android:layout_width="match_parent"
+  		android:layout_height="wrap_content"
+  		android:layout_marginBottom="60dp"> 
+        
+    </ListView>
+</LinearLayout> 

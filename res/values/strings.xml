@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">中大參一腳</string>
+    <string name="fb_id">799907806707364</string>
+	<string name="action_settings">Settings</string>
+	<string-array name="campusArray">
+        <item>中央大學</item>
+        <item>中原大學</item>
+   </string-array>
+	<string-array name="typeArray">
+        <item>教學研究</item>
+        <item>行政資源</item>
+        <item>生活機能</item>
+        <item>運動休閒</item>
+   </string-array>
+   <string-array name="studyplaceArray">  
+        <item>選擇地點</item>
+        <item>A文學一館</item>
+        <item>C2文學二館(文學院)</item>
+		<item>人文社會科學大樓(文學三館)/黑盒子劇場</item>
+		<item>E工程一館(土木系/化材系)</item>
+		<item>E1工程二館(資電學院)</item>
+		<item>E2工程三館(機械館)</item>
+		<item>E3工程四館(環工館/化工館)</item>
+		<item>E6工程五館(工學院/資工系)</item>
+		<item>S科學一館(地科學院)/秉文堂</item>
+		<item>S1科學二館(理學院)</item>
+		<item>S2科學三館</item>
+		<item>S4健雄館(科學四館)</item>
+		<item>H2理學院教學館(科教中心)</item>
+		<item>S5科學五館</item>
+		<item>IL國鼎光電大樓</item>
+		<item>客家學院大樓</item>
+		<item>R3太空遙測研究中心/研究中心大樓二期</item>
+		<item>R2太空遙測研究中心/研究中心大樓一期</item>
+		<item>I志希館(管理學院/電算中心(計中))</item>
+		<item>教學綜合研究大樓</item>
+		<item>I1管理二館</item>
+		<item>MA鴻經館</item>
+   </string-array>
+   <string-array name="adminplaceArray">
+       	<item>選擇地點</item>  
+        <item>行政大樓</item>
+        <item>O綜教館(語言中心/桃竹苗區域教學資源中心)</item>
+		<item>中正圖書館(舊圖)/學務處/藝文中心</item>
+		<item>L3國鼎圖書資料館</item>
+		<item>總圖書館</item>
+		<item>資策會</item>
+		<item>創新育成中心/國際事務處</item>
+		<item>中大會館</item>
+		<item>前門警衛室</item>
+		<item>後門警衛室</item>
+   </string-array>
+   <string-array name="lifeplaceArray">
+       	<item>選擇地點</item>  
+        <item>依仁堂</item>
+        <item>大講堂(校史館)</item>
+		<item>據德樓</item>
+		<item>遊藝館</item>
+		<item>志道樓</item>
+		<item>中央大學郵局</item>
+		<item>七舍餐廳</item>
+		<item>九舍餐廳</item>
+		<item>松苑餐廳</item>
+		<item>鬆餅屋</item>
+		<item>女十四舍</item>
+		<item>中大湖(玄武湖)</item>
+   </string-array>
+    <string-array name="sportplaceArray">
+        <item>選擇地點</item>  
+        <item>籃球場(溜冰場旁)</item>
+        <item>籃球場(機械館旁)</item>
+		<item>排球場(依仁堂旁)</item>
+		<item>排球場(網球場旁)</item>
+		<item>健身房(依仁堂內)</item>
+		<item>羽球館</item>
+		<item>溜冰場</item>
+		<item>棒球場</item>
+		<item>田徑場</item>
+		<item>攀岩場</item>
+		<item>網球場</item>
+		<item>室內游泳池</item>
+   </string-array>
+</resources>

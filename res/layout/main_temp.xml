@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <FrameLayout
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      android:id="@+id/total_layout"
+      android:layout_width="fill_parent" 
+      android:layout_height="fill_parent">
+      <RelativeLayout
+          android:id="@+id/top_layout"
+          android:layout_width="match_parent"
+          android:layout_height="40dp"
+          android:layout_gravity="top" 
+          android:background="@drawable/myborder">
+          <TextView
+            android:id="@+id/top_title"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="ActsCubicle"
+        	android:textStyle="bold"
+        	android:textSize="20sp"
+        	android:textColor="#F8F2F8"
+        	android:layout_centerInParent="true">
+    		</TextView>
+      </RelativeLayout>
+     <LinearLayout 
+        android:id="@+id/main_layout"
+      	android:layout_width="match_parent" 
+      	android:layout_height="fill_parent"
+      	android:layout_marginTop="40dp"
+      	android:background="#FFFFFF"
+      	android:orientation="vertical"
+      	android:fitsSystemWindows="true">
+		<ImageView 
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center"
+		    android:src="@drawable/logo1"/>
+		<TextView 
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center"
+		    android:textSize="25sp"
+		    android:textStyle="bold"
+		    android:padding="5dp"
+		    android:text="An application for you to upload activities, access new activities and follow activities you want."/>
+
+      </LinearLayout>
+      <LinearLayout 
+     	android:layout_width="match_parent"
+     	android:layout_height="60dp"
+		android:layout_gravity="bottom" 
+     	android:orientation="horizontal"
+     	android:background="@drawable/myborder">
+        
+        <ImageButton
+            android:id="@+id/user_button"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:src="@drawable/userbutton"
+            android:background="@null" />
+        
+        <ImageButton
+            android:id="@+id/list_button"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:src="@drawable/listbutton"
+            android:background="@null" />
+        
+        <ImageButton
+            android:id="@+id/write_button"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:src="@drawable/uploadbutton"
+            android:background="@null" />
+        
+         <ImageButton
+            android:id="@+id/follow_button"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:src="@drawable/followbutton"
+            android:background="@null" />
+
+     </LinearLayout>
+         	
+  </FrameLayout>
+  
+   
